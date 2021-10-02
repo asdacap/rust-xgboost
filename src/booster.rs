@@ -361,6 +361,7 @@ impl Booster {
                                                 dmat.handle,
                                                 option_mask,
                                                 ntree_limit,
+                                                1,
                                                 &mut out_len,
                                                 &mut out_result))?;
 
@@ -381,6 +382,7 @@ impl Booster {
                                                 dmat.handle,
                                                 option_mask,
                                                 ntree_limit,
+                                                1,
                                                 &mut out_len,
                                                 &mut out_result))?;
         assert!(!out_result.is_null());
@@ -403,6 +405,7 @@ impl Booster {
                                                 dmat.handle,
                                                 option_mask,
                                                 ntree_limit,
+                                                1,
                                                 &mut out_len,
                                                 &mut out_result))?;
         assert!(!out_result.is_null());
@@ -429,6 +432,7 @@ impl Booster {
                                                 dmat.handle,
                                                 option_mask,
                                                 ntree_limit,
+                                                1,
                                                 &mut out_len,
                                                 &mut out_result))?;
         assert!(!out_result.is_null());
@@ -456,6 +460,7 @@ impl Booster {
                                                 dmat.handle,
                                                 option_mask,
                                                 ntree_limit,
+                                                1,
                                                 &mut out_len,
                                                 &mut out_result))?;
         assert!(!out_result.is_null());
